@@ -77,6 +77,7 @@ Compare how two tokens fare across layers:
 - Loading the model may take time.
 - Clear the cache after analysis of the two/ three models. 
 - Work to be done: optimize the inference time and model loading using open-source tools like unsloth and onnx.
+- Future work: Visualization support for custom models uploaded or from Hugging Face by the user.
 
 # Contributing
 Contributions welcome! Please open an issue first to discuss proposed changes.
