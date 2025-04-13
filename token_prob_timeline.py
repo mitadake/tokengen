@@ -18,7 +18,7 @@ torch._dynamo.config.suppress_errors = True
 
 st.title("🧮 Token Probability Timeline with Attention")
 st.markdown("Visualize **token prediction evolution** and **attention heads** layer-by-layer.")
-st.markdown("Note: Model Loading may take time.")
+st.markdown("Note: Model Loading may take time. Clear cache for inference of multiple model.")
 st.markdown("Use below example or write your own text to predict. I provide explanation of the example below.")
 with st.expander("Example"):
     st.markdown("For example: 'The world is full of amazing', the attention graph shows word 'The' has higher attention (bright/warm colors). Why does model give attention to this word in comparison to others?")
