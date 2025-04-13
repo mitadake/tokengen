@@ -37,6 +37,8 @@ model_list = [
     "facebook/opt-1.3b",
 ]
 
+contrast_mode = False
+
 if mode == "Single Model":
     model_1_name = st.selectbox("Select Model", model_list, index=2)
     model_2_name = None
