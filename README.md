@@ -2,6 +2,8 @@
 TokenGen is an interactive visualization tool for exploring how transformer-based language models predict tokens layer-by-layer. It provides insights into the evolution of token probabilities and attention head dynamics across transformer blocks. Built with Streamlit and Plotly.
 Website: [TokenGen](https://tokengen.streamlit.app/)
 
+[![Video Thumbnail](https://img.youtube.com/vi/9_k6cHsg9hI/0.jpg)](https://www.youtube.com/watch?v=9_k6cHsg9hI)
+
 # Features
 - **Token Probability Timeline**: Track how token predictions evolve through each transformer layer.
 - **Attention Heatmaps**: Visualize aggregated attention patterns across layers and tokens.
