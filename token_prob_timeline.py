@@ -167,7 +167,7 @@ if st.button("Run"):
         reducer = UMAP(n_components=2, random_state=42)
         embeddings = reducer.fit_transform(patterns)
 
-        # Cluster using K-means (since we're avoiding HDBSCAN)
+        # Cluster using K-means
         # n_clusters = min(5, len(patterns))  # Default to 5 clusters
         kmeans = KMeans(n_clusters=n_clusters, random_state=42)
         clusters = kmeans.fit_predict(embeddings)
