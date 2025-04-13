@@ -29,16 +29,19 @@ Website: [TokenGen](https://tokengen.streamlit.app/)
    - Explore different tabs and visualizations
 
 # Key Visualizations
-1. Token Prediction
+1. Token Prediction:
 ![Predicted token](https://github.com/mitadake/tokengen/blob/main/src/pred_token.png)
 Predicts the token based on the model chosen.
-2. Probability Timeline
+
+2. Probability Timeline:
 ![Probability Timeline](https://github.com/mitadake/tokengen/blob/main/src/prob_timeline.png)
 Shows how different token probabilities change through successive transformer layers.
-3. Attention Heatmap
+
+3. Attention Heatmap:
 ![Attention Heatmap](https://github.com/mitadake/tokengen/blob/main/src/atten_heatmap.png)
 Displays layer-wise attention patterns aggregated across all attention heads.
-4. Head Clustering
+
+4. Head Clustering:
 ![Head Clustering](https://github.com/mitadake/tokengen/blob/main/src/head_clustering.png)
 Groups of similar attention heads using K-Means to reveal functional patterns.
 
