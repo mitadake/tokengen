@@ -29,20 +29,20 @@ Website: [TokenGen](https://tokengen.streamlit.app/)
    - Explore different tabs and visualizations
 
 # Key Visualizations
-1. Token Prediction:
-![Predicted token](https://github.com/mitadake/tokengen/blob/main/src/pred_token.png)
+1. Token Prediction:<br>
+![Predicted token](https://github.com/mitadake/tokengen/blob/main/src/pred_token.png)<br>
 Predicts the token based on the model chosen.
 
-2. Probability Timeline:
-![Probability Timeline](https://github.com/mitadake/tokengen/blob/main/src/prob_timeline.png)
+2. Probability Timeline:<br>
+![Probability Timeline](https://github.com/mitadake/tokengen/blob/main/src/prob_timeline.png)<br>
 Shows how different token probabilities change through successive transformer layers.
 
-3. Attention Heatmap:
-![Attention Heatmap](https://github.com/mitadake/tokengen/blob/main/src/atten_heatmap.png)
+3. Attention Heatmap:<br>
+![Attention Heatmap](https://github.com/mitadake/tokengen/blob/main/src/atten_heatmap.png)<br>
 Displays layer-wise attention patterns aggregated across all attention heads.
 
-4. Head Clustering:
-![Head Clustering](https://github.com/mitadake/tokengen/blob/main/src/head_clustering.png)
+4. Head Clustering:<br>
+![Head Clustering](https://github.com/mitadake/tokengen/blob/main/src/head_clustering.png)<br>
 Groups of similar attention heads using K-Means to reveal functional patterns.
 
 # Supported Models
