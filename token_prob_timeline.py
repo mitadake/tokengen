@@ -68,7 +68,7 @@ def load_model(name):
         name,
         output_hidden_states=True,
         output_attentions=True,
-        torch_dtype=torch.float32,
+        torch_dtype=torch.float16,
     )
     tokenizer = AutoTokenizer.from_pretrained(name)
     model.eval()
