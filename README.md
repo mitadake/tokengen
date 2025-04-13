@@ -12,7 +12,7 @@ Website: [TokenGen](https://tokengen.streamlit.app/)
 # Installation
 1. Clone repository:
    ```bash
-   git clone https://github.com/yourusername/tokengen.git
+   git clone https://github.com/mitadake/tokengen.git
    cd tokengen
 2. Install dependencies:
    ```bash
